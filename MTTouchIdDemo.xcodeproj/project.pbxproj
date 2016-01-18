@@ -15,6 +15,7 @@
 		4564F9D01C4CC69000515583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564F9CE1C4CC69000515583 /* LaunchScreen.storyboard */; };
 		4564F9DB1C4CC69000515583 /* MTTouchIdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9DA1C4CC69000515583 /* MTTouchIdDemoTests.m */; };
 		4564F9E61C4CC69000515583 /* MTTouchIdDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9E51C4CC69000515583 /* MTTouchIdDemoUITests.m */; };
+		4564F9F61C4CCA8700515583 /* MTTouchIdTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9F51C4CCA8700515583 /* MTTouchIdTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4564F9E11C4CC69000515583 /* MTTouchIdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTouchIdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4564F9E51C4CC69000515583 /* MTTouchIdDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTouchIdDemoUITests.m; sourceTree = "<group>"; };
 		4564F9E71C4CC69000515583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4564F9F41C4CCA8700515583 /* MTTouchIdTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTouchIdTool.h; sourceTree = "<group>"; };
+		4564F9F51C4CCA8700515583 /* MTTouchIdTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTouchIdTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				4564F9C41C4CC69000515583 /* AppDelegate.m */,
 				4564F9C61C4CC69000515583 /* ViewController.h */,
 				4564F9C71C4CC69000515583 /* ViewController.m */,
+				4564F9F31C4CC95D00515583 /* Touch ID */,
 				4564F9C91C4CC69000515583 /* Main.storyboard */,
 				4564F9CC1C4CC69000515583 /* Assets.xcassets */,
 				4564F9CE1C4CC69000515583 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				4564F9E71C4CC69000515583 /* Info.plist */,
 			);
 			path = MTTouchIdDemoUITests;
+			sourceTree = "<group>";
+		};
+		4564F9F31C4CC95D00515583 /* Touch ID */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9F41C4CCA8700515583 /* MTTouchIdTool.h */,
+				4564F9F51C4CCA8700515583 /* MTTouchIdTool.m */,
+			);
+			name = "Touch ID";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					4564F9BC1C4CC69000515583 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ELK7XCJL4B;
 					};
 					4564F9D51C4CC69000515583 = {
 						CreatedOnToolsVersion = 7.2;
@@ -271,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4564F9C81C4CC69000515583 /* ViewController.m in Sources */,
+				4564F9F61C4CCA8700515583 /* MTTouchIdTool.m in Sources */,
 				4564F9C51C4CC69000515583 /* AppDelegate.m in Sources */,
 				4564F9C21C4CC69000515583 /* main.m in Sources */,
 			);
@@ -413,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MTTouchIdDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemo";
@@ -424,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MTTouchIdDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemo";
