@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4564F9C21C4CC69000515583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9C11C4CC69000515583 /* main.m */; };
+		4564F9C51C4CC69000515583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9C41C4CC69000515583 /* AppDelegate.m */; };
+		4564F9C81C4CC69000515583 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9C71C4CC69000515583 /* ViewController.m */; };
+		4564F9CB1C4CC69000515583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564F9C91C4CC69000515583 /* Main.storyboard */; };
+		4564F9CD1C4CC69000515583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4564F9CC1C4CC69000515583 /* Assets.xcassets */; };
+		4564F9D01C4CC69000515583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4564F9CE1C4CC69000515583 /* LaunchScreen.storyboard */; };
+		4564F9DB1C4CC69000515583 /* MTTouchIdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9DA1C4CC69000515583 /* MTTouchIdDemoTests.m */; };
+		4564F9E61C4CC69000515583 /* MTTouchIdDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4564F9E51C4CC69000515583 /* MTTouchIdDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4564F9D71C4CC69000515583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4564F9B51C4CC69000515583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4564F9BC1C4CC69000515583;
+			remoteInfo = MTTouchIdDemo;
+		};
+		4564F9E21C4CC69000515583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4564F9B51C4CC69000515583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4564F9BC1C4CC69000515583;
+			remoteInfo = MTTouchIdDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4564F9BD1C4CC69000515583 /* MTTouchIdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTTouchIdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564F9C11C4CC69000515583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4564F9C31C4CC69000515583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4564F9C41C4CC69000515583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4564F9C61C4CC69000515583 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4564F9C71C4CC69000515583 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4564F9CA1C4CC69000515583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4564F9CC1C4CC69000515583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4564F9CF1C4CC69000515583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4564F9D11C4CC69000515583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4564F9D61C4CC69000515583 /* MTTouchIdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTouchIdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564F9DA1C4CC69000515583 /* MTTouchIdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTouchIdDemoTests.m; sourceTree = "<group>"; };
+		4564F9DC1C4CC69000515583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4564F9E11C4CC69000515583 /* MTTouchIdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTouchIdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564F9E51C4CC69000515583 /* MTTouchIdDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTouchIdDemoUITests.m; sourceTree = "<group>"; };
+		4564F9E71C4CC69000515583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4564F9BA1C4CC69000515583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9D31C4CC69000515583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9DE1C4CC69000515583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4564F9B41C4CC69000515583 = {
+			isa = PBXGroup;
+			children = (
+				4564F9BF1C4CC69000515583 /* MTTouchIdDemo */,
+				4564F9D91C4CC69000515583 /* MTTouchIdDemoTests */,
+				4564F9E41C4CC69000515583 /* MTTouchIdDemoUITests */,
+				4564F9BE1C4CC69000515583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4564F9BE1C4CC69000515583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9BD1C4CC69000515583 /* MTTouchIdDemo.app */,
+				4564F9D61C4CC69000515583 /* MTTouchIdDemoTests.xctest */,
+				4564F9E11C4CC69000515583 /* MTTouchIdDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4564F9BF1C4CC69000515583 /* MTTouchIdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9C31C4CC69000515583 /* AppDelegate.h */,
+				4564F9C41C4CC69000515583 /* AppDelegate.m */,
+				4564F9C61C4CC69000515583 /* ViewController.h */,
+				4564F9C71C4CC69000515583 /* ViewController.m */,
+				4564F9C91C4CC69000515583 /* Main.storyboard */,
+				4564F9CC1C4CC69000515583 /* Assets.xcassets */,
+				4564F9CE1C4CC69000515583 /* LaunchScreen.storyboard */,
+				4564F9D11C4CC69000515583 /* Info.plist */,
+				4564F9C01C4CC69000515583 /* Supporting Files */,
+			);
+			path = MTTouchIdDemo;
+			sourceTree = "<group>";
+		};
+		4564F9C01C4CC69000515583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9C11C4CC69000515583 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4564F9D91C4CC69000515583 /* MTTouchIdDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9DA1C4CC69000515583 /* MTTouchIdDemoTests.m */,
+				4564F9DC1C4CC69000515583 /* Info.plist */,
+			);
+			path = MTTouchIdDemoTests;
+			sourceTree = "<group>";
+		};
+		4564F9E41C4CC69000515583 /* MTTouchIdDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4564F9E51C4CC69000515583 /* MTTouchIdDemoUITests.m */,
+				4564F9E71C4CC69000515583 /* Info.plist */,
+			);
+			path = MTTouchIdDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4564F9BC1C4CC69000515583 /* MTTouchIdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4564F9EA1C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemo" */;
+			buildPhases = (
+				4564F9B91C4CC69000515583 /* Sources */,
+				4564F9BA1C4CC69000515583 /* Frameworks */,
+				4564F9BB1C4CC69000515583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTTouchIdDemo;
+			productName = MTTouchIdDemo;
+			productReference = 4564F9BD1C4CC69000515583 /* MTTouchIdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4564F9D51C4CC69000515583 /* MTTouchIdDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4564F9ED1C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemoTests" */;
+			buildPhases = (
+				4564F9D21C4CC69000515583 /* Sources */,
+				4564F9D31C4CC69000515583 /* Frameworks */,
+				4564F9D41C4CC69000515583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4564F9D81C4CC69000515583 /* PBXTargetDependency */,
+			);
+			name = MTTouchIdDemoTests;
+			productName = MTTouchIdDemoTests;
+			productReference = 4564F9D61C4CC69000515583 /* MTTouchIdDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4564F9E01C4CC69000515583 /* MTTouchIdDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4564F9F01C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemoUITests" */;
+			buildPhases = (
+				4564F9DD1C4CC69000515583 /* Sources */,
+				4564F9DE1C4CC69000515583 /* Frameworks */,
+				4564F9DF1C4CC69000515583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4564F9E31C4CC69000515583 /* PBXTargetDependency */,
+			);
+			name = MTTouchIdDemoUITests;
+			productName = MTTouchIdDemoUITests;
+			productReference = 4564F9E11C4CC69000515583 /* MTTouchIdDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4564F9B51C4CC69000515583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ely;
+				TargetAttributes = {
+					4564F9BC1C4CC69000515583 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4564F9D51C4CC69000515583 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4564F9BC1C4CC69000515583;
+					};
+					4564F9E01C4CC69000515583 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4564F9BC1C4CC69000515583;
+					};
+				};
+			};
+			buildConfigurationList = 4564F9B81C4CC69000515583 /* Build configuration list for PBXProject "MTTouchIdDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4564F9B41C4CC69000515583;
+			productRefGroup = 4564F9BE1C4CC69000515583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4564F9BC1C4CC69000515583 /* MTTouchIdDemo */,
+				4564F9D51C4CC69000515583 /* MTTouchIdDemoTests */,
+				4564F9E01C4CC69000515583 /* MTTouchIdDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4564F9BB1C4CC69000515583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564F9D01C4CC69000515583 /* LaunchScreen.storyboard in Resources */,
+				4564F9CD1C4CC69000515583 /* Assets.xcassets in Resources */,
+				4564F9CB1C4CC69000515583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9D41C4CC69000515583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9DF1C4CC69000515583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4564F9B91C4CC69000515583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564F9C81C4CC69000515583 /* ViewController.m in Sources */,
+				4564F9C51C4CC69000515583 /* AppDelegate.m in Sources */,
+				4564F9C21C4CC69000515583 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9D21C4CC69000515583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564F9DB1C4CC69000515583 /* MTTouchIdDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4564F9DD1C4CC69000515583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4564F9E61C4CC69000515583 /* MTTouchIdDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4564F9D81C4CC69000515583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4564F9BC1C4CC69000515583 /* MTTouchIdDemo */;
+			targetProxy = 4564F9D71C4CC69000515583 /* PBXContainerItemProxy */;
+		};
+		4564F9E31C4CC69000515583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4564F9BC1C4CC69000515583 /* MTTouchIdDemo */;
+			targetProxy = 4564F9E21C4CC69000515583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4564F9C91C4CC69000515583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4564F9CA1C4CC69000515583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4564F9CE1C4CC69000515583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4564F9CF1C4CC69000515583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4564F9E81C4CC69000515583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4564F9E91C4CC69000515583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4564F9EB1C4CC69000515583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTTouchIdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4564F9EC1C4CC69000515583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MTTouchIdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4564F9EE1C4CC69000515583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTTouchIdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTTouchIdDemo.app/MTTouchIdDemo";
+			};
+			name = Debug;
+		};
+		4564F9EF1C4CC69000515583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTTouchIdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTTouchIdDemo.app/MTTouchIdDemo";
+			};
+			name = Release;
+		};
+		4564F9F11C4CC69000515583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTTouchIdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTTouchIdDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4564F9F21C4CC69000515583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MTTouchIdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-yimouleng.MTTouchIdDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTTouchIdDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4564F9B81C4CC69000515583 /* Build configuration list for PBXProject "MTTouchIdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564F9E81C4CC69000515583 /* Debug */,
+				4564F9E91C4CC69000515583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4564F9EA1C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564F9EB1C4CC69000515583 /* Debug */,
+				4564F9EC1C4CC69000515583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4564F9ED1C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564F9EE1C4CC69000515583 /* Debug */,
+				4564F9EF1C4CC69000515583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4564F9F01C4CC69000515583 /* Build configuration list for PBXNativeTarget "MTTouchIdDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4564F9F11C4CC69000515583 /* Debug */,
+				4564F9F21C4CC69000515583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4564F9B51C4CC69000515583 /* Project object */;
+}
