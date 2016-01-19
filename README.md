@@ -3,9 +3,9 @@
 
 #效果图：
 
- [![](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId1.gif)](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId1.gif)
+ [![](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId1.png)](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId1.png)
  
-  [![](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId2.gif)](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId2.gif)
+  [![](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId2.png)](https://github.com/yimouleng/MTTouchIdDemo/blob/master/TouchId2.png)
 
 ## 使用方法
 
